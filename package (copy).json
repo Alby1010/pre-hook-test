@@ -1,7 +1,6 @@
 "scripts": {
   "lint:js": "eslint . --ext .js",
   "lint:js:fix": "npm run lint:js -- --fix"
- }
  } 
 {
   "name": "ang2-conduit",
