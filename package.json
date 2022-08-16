@@ -1,3 +1,7 @@
+"scripts": {
+  "lint:js": "eslint . --ext .js",
+  "lint:js:fix": "npm run lint:js -- --fix"
+ } 
 {
   "name": "ang2-conduit",
   "version": "0.0.0",
@@ -38,6 +42,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.1",
+    "husky": "^8.0.1",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",
@@ -46,6 +51,7 @@
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "lint-staged": "^13.0.3",
     "pre-commit": "^1.2.2",
     "protractor": "~7.0.0",
     "ts-node": "~4.1.0",
